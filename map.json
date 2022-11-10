@@ -497,7 +497,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"script.jsWA.chat.sendChatMessage('Hello world', 'Mr Robot');"
+         "value":"<script>\nWA.chat.sendChatMessage('Hello world', 'Mr Robot');\n<\/script>"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
