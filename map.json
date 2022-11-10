@@ -497,7 +497,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"<script>\nWA.chat.sendChatMessage('Hello world', 'Mr Robot');\n<\/script>"
+         "value":"Access-Control-Allow-Origin: WA.chat.sendChatMessage('Hello world', 'Mr Robot');\n"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
