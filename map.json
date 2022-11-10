@@ -372,17 +372,6 @@
                  "width":117,
                  "x":819,
                  "y":790
-                }, 
-                {
-                 "class":"",
-                 "height":0,
-                 "id":26,
-                 "name":"",
-                 "rotation":0,
-                 "visible":true,
-                 "width":0,
-                 "x":876,
-                 "y":774
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -508,7 +497,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":""
+         "value":"script.jsWA.chat.sendChatMessage('Hello world', 'Mr Robot');"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
