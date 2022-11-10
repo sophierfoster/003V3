@@ -348,20 +348,9 @@
         }, 
         {
          "draworder":"topdown",
-         "id":51,
-         "name":"my_popup",
-         "objects":[
-                {
-                 "class":"",
-                 "height":149,
-                 "id":18,
-                 "name":"",
-                 "rotation":0,
-                 "visible":true,
-                 "width":118,
-                 "x":810,
-                 "y":843
-                }],
+         "id":2,
+         "name":"floorLayer",
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -370,9 +359,31 @@
         }, 
         {
          "draworder":"topdown",
-         "id":2,
-         "name":"floorLayer",
-         "objects":[],
+         "id":52,
+         "name":"my_popup",
+         "objects":[
+                {
+                 "class":"",
+                 "height":195,
+                 "id":25,
+                 "name":"my_popup",
+                 "rotation":0,
+                 "visible":true,
+                 "width":117,
+                 "x":819,
+                 "y":790
+                }, 
+                {
+                 "class":"",
+                 "height":0,
+                 "id":26,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":876,
+                 "y":774
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -465,8 +476,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":52,
- "nextobjectid":20,
+ "nextlayerid":53,
+ "nextobjectid":27,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -497,7 +508,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"\/\/\/ <reference path=\"..\/node_modules\/@workadventure\/iframe-api-typings\/iframe_api.d.ts\" \/>\n\nfunction foo() {\n  WA.ui.openPopup(\n    \"my_popup\", \/\/ name of the rectangle object (see below)\n    \"Foo message to be shown.\", \/\/ popup message\n    [] \/\/empty array for no buttons\n  );\n}\n\nfunction bar() {\n  WA.ui.openPopup(\n    \"my_popup\", \/\/ name of the rectangle object (see below)\n    \"Bar message to be shown.\", \/\/ popup message\n    [\n      {\n        label: \"Button1\", \/\/ text of button 1\n        className: \"primary\", \/\/ css class, here for primary buttons\n        callback: (p) => { \/\/ place for a callback\n          p.close(); \/\/ for example closing the popup\n        }\n      }, {\n        label: \"Button2\", \/\/ text of button 2\n        className: \"normal\", \/\/ css class, here for normal buttons\n        callback: (p) => {\n          p.close();\n        }\n      },\n    ]\n  );\n}  "
+         "value":"\/\/ Open the popup when we enter a given zone\nWA.room.onEnterLayer(\"myZone\").subscribe(() => {\n    helloWorldPopup = WA.ui.openPopup(\"my_popup\", 'Hello world!', [{\n        label: \"Close\",\n        className: \"primary\",\n        callback: (popup) => {\n            \/\/ Close the popup when the \"Close\" button is pressed.\n            popup.close();\n        }\n    }]);\n});\n\n\/\/ Close the popup when we leave the zone.\nWA.room.onLeaveLayer(\"myZone\").subscribe(() => {\n    helloWorldPopup.close();\n})"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
