@@ -77,7 +77,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0],
          "height":32,
          "id":48,
          "name":"clockZone",
@@ -508,7 +508,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"\/\/ Open the popup when we enter a given zone\nWA.room.onEnterLayer(\"myZone\").subscribe(() => {\n    helloWorldPopup = WA.ui.openPopup(\"my_popup\", 'Hello world!', [{\n        label: \"Close\",\n        className: \"primary\",\n        callback: (popup) => {\n            \/\/ Close the popup when the \"Close\" button is pressed.\n            popup.close();\n        }\n    }]);\n});\n\n\/\/ Close the popup when we leave the zone.\nWA.room.onLeaveLayer(\"myZone\").subscribe(() => {\n    helloWorldPopup.close();\n})"
+         "value":""
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
