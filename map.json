@@ -169,7 +169,7 @@
          "name":"clockZone",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":30,
          "x":0,
          "y":0
@@ -374,6 +374,17 @@
                  "y":790
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"message",
+                 "type":"string",
+                 "value":"welcome!"
+                }, 
+                {
+                 "name":"targetObject",
+                 "type":"string",
+                 "value":"my_popup"
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
