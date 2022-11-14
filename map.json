@@ -141,7 +141,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.uni-weimar.de\/de\/universitaet\/struktur\/zentrale-einrichtungen\/zue\/lernraumbauhaus\/"
+                 "value":"https:\/\/www.uni-weimar.de\/de\/universitaet\/struktur\/zentrale-einrichtungen\/zue\/lernraumbauhaus\/?type=98"
                 }],
          "type":"tilelayer",
          "visible":true,
