@@ -190,7 +190,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"bbbMeeting",
                  "type":"string",
                  "value":"https:\/\/meeting.uni-weimar.de\/b\/sop-ntr-njh-lzo"
                 }],
