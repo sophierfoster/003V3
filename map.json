@@ -375,21 +375,22 @@
                 }, 
                 {
                  "class":"",
-                 "height":64.3333333333333,
+                 "height":84.3333333333333,
                  "id":27,
                  "name":"",
                  "rotation":0,
                  "text":
                     {
-                     "fontfamily":"8514oem",
-                     "pixelsize":20,
+                     "bold":true,
+                     "fontfamily":"Arial Black",
+                     "pixelsize":17,
                      "text":"Welcome to the hybrides.lernatelier! Here you can access the online components of Raum 003. Use your avatar to explore the different zones:",
                      "wrap":true
                     },
                  "visible":true,
-                 "width":643,
-                 "x":55.8333333333333,
-                 "y":831.833333333333
+                 "width":543,
+                 "x":63.8333333333333,
+                 "y":865.166666666667
                 }],
          "opacity":1,
          "properties":[
