@@ -48,7 +48,7 @@
                  "value":"https:\/\/app.conceptboard.com\/board\/5zga-u16s-r2hy-dp29-097x"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -189,7 +189,7 @@
          "name":"clockZone",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -279,7 +279,7 @@
          "name":"Floor layer",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
