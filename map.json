@@ -93,7 +93,7 @@
          "name":"collisions",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -192,7 +192,7 @@
                 {
                  "name":"bbbMeeting",
                  "type":"string",
-                 "value":"my-meeting-room"
+                 "value":"8cc526a3-e45f-4925-9df3-ec440bcc425b"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -330,7 +330,7 @@
          "name":"Floor layer",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
