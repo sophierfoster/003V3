@@ -188,6 +188,12 @@
          "id":62,
          "name":"Youtube_live_stream",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/www.youtube.com\/embed\/C6DppzA5z08"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":30,
