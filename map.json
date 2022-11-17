@@ -245,7 +245,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"http:\/\/meeting.uni-weimar.de\/b\/jan-p9r-q1q-mi7"
+                 "value":"https:\/\/moodle.uni-weimar.de\/mod\/bigbluebuttonbn\/view.php?id=315360"
                 }],
          "type":"tilelayer",
          "visible":true,
