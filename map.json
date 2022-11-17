@@ -193,7 +193,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/player.vimeo.com\/video\/771059695"
+                 "value":"https:\/\/vimeo.com\/event\/2618592"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -434,7 +434,7 @@
          "name":"Floor layer",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
