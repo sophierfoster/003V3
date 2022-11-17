@@ -193,7 +193,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https:\/\/vimeo.com\/webinars\/events\/054068e4-0618-4599-be25-e7aa67ab323c\/embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen style=\"position:absolute;top:0;left:0;width:100%;height:100%;\"><\/iframe><\/div>"
+                 "value":"https:\/\/player.vimeo.com\/video\/771059695?h=2dc961b714&byline=0&portrait=0"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -239,13 +239,13 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":34,
          "id":62,
-         "name":"BigBlueButton",
+         "name":"LiveStream",
          "opacity":1,
          "properties":[
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"http:\/\/meeting.uni-weimar.de\/b\/jan-p9r-q1q-mi7"
+                 "value":"https:\/\/player.vimeo.com\/video\/772013543?h=7fe4d67801&title=0&byline=0&portrait=0"
                 }],
          "type":"tilelayer",
          "visible":true,
