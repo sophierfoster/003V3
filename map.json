@@ -494,6 +494,12 @@
          "id":75,
          "name":"Youtube link",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/www.youtube.com\/embed\/lu1IZgBJJD4"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":30,
