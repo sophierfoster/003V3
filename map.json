@@ -494,12 +494,6 @@
          "id":75,
          "name":"Youtube link",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"openWebsite",
-                 "type":"string",
-                 "value":"https:\/\/www.youtube.com\/embed\/lu1IZgBJJD4"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":30,
@@ -636,7 +630,7 @@
          "name":"Floor layer",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -918,7 +912,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -1143,7 +1137,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"A perfect virtual office to get started with WorkAdventure!"
+         "value":"A demo world from Lernraum.Bauhaus to get started with WorkAdventure!"
         }, 
         {
          "name":"mapImage",
@@ -1158,7 +1152,7 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"Raum 003"
         }, 
         {
          "name":"script",
