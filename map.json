@@ -449,6 +449,12 @@
          "id":74,
          "name":"resource file",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"openFile",
+                 "type":"string",
+                 "value":"WorkAdventure Starter Kit.pdf"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":30,
