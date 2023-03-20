@@ -397,7 +397,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/stiftung-hochschullehre.de\/projekt\/hybrid-b\/"
+                 "value":"<iframe id=\"inlineFrameExample\"\n    title=\"Inline Frame Example\"\n    width=\"300\"\n    height=\"200\"\n    src=\"https:\/\/terminplaner6.dfn.de\/en\/node\/169646\/edit?authkey=5bab177d752ec415c2ce0f5e0c04c05d24a400811367bdcc6638a42e49e022d4\">\n<\/iframe>"
                 }],
          "type":"tilelayer",
          "visible":true,
