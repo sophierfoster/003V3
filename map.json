@@ -344,9 +344,14 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"OpenTab",
+                 "name":"OpenWebsite",
                  "type":"string",
-                 "value":"https:\/\/terminplaner6.dfn.de\/en\/p\/ffbee4343c2ed7c1899b61f11821f065-169646"
+                 "value":"https:\/\/terminplaner6.dfn.de\/en\/node\/169646\/edit?authkey=5bab177d752ec415c2ce0f5e0c04c05d24a400811367bdcc6638a42e49e022d4"
+                }, 
+                {
+                 "name":"OpenWebsitePolicy",
+                 "type":"string",
+                 "value":"fullscreen"
                 }],
          "type":"tilelayer",
          "visible":true,
