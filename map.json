@@ -91,6 +91,16 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"my-meeting-room"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }, 
+                {
+                 "name":"jitsiTriggerMessage",
+                 "type":"string",
+                 "value":"Press SPACE \/ touch to enter the virtual meeting"
                 }],
          "type":"tilelayer",
          "visible":true,
