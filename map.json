@@ -461,9 +461,14 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openFile",
+                 "name":"openTab",
                  "type":"string",
-                 "value":"WorkAdventure Starter Kit.pdf"
+                 "value":"https:\/\/cloud.uni-weimar.de\/s\/c5TJLGDsEjwcq7A"
+                }, 
+                {
+                 "name":"openWebsiteClosable",
+                 "type":"bool",
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
