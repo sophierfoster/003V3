@@ -1144,7 +1144,7 @@
         {
          "name":"tutorial",
          "type":"bool",
-         "value":false
+         "value":true
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
