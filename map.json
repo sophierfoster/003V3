@@ -566,12 +566,6 @@
          "id":6,
          "name":"start",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"tutorial",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":30,
@@ -1146,6 +1140,11 @@
          "name":"script",
          "type":"string",
          "value":"script.js"
+        }, 
+        {
+         "name":"tutorial",
+         "type":"bool",
+         "value":false
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
