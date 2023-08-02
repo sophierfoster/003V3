@@ -528,61 +528,6 @@
          "y":0
         }, 
         {
-         "draworder":"topdown",
-         "id":78,
-         "name":"Popup",
-         "objects":[
-                {
-                 "class":"",
-                 "height":163,
-                 "id":58,
-                 "name":"",
-                 "rotation":0,
-                 "visible":true,
-                 "width":139,
-                 "x":260,
-                 "y":854
-                }, 
-                {
-                 "class":"",
-                 "height":19,
-                 "id":59,
-                 "name":"",
-                 "rotation":0,
-                 "text":
-                    {
-                     "text":"Hello World",
-                     "wrap":true
-                    },
-                 "visible":true,
-                 "width":83,
-                 "x":283.5,
-                 "y":877.5
-                }, 
-                {
-                 "class":"",
-                 "height":56,
-                 "id":60,
-                 "name":"",
-                 "rotation":0,
-                 "text":
-                    {
-                     "color":"#ff0000",
-                     "text":"Welcome to the Raum 003",
-                     "wrap":true
-                    },
-                 "visible":false,
-                 "width":117,
-                 "x":285.5,
-                 "y":925.5
-                }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
